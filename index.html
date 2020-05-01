@@ -1,0 +1,46 @@
+
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="my.css" />
+    <style type="text/css">
+
+html {
+	background: url(nyc.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+    </style>
+ <script type="text/javascript">
+ function openIt(){
+ 	var strProgramPath = "C:\Windows\notepad.exe";
+    var objShell = createobject("Wscript.Shell");
+    objShell.Run strProgramPath;
+ }
+ function displayDate()
+{
+document.getElementById("demo").innerHTML=Date();
+}
+ </script>
+  </head>
+  <body><div id="container"><div id="header">Example Website - Fun time</div>
+  <div id="navbar">
+  <div id="item"><a href="index.html">This Page</a></div>
+  <div id="item"><a href="https://googledrive.com/host/0B5AgVKBJIMRlbFFEN1RoZ2YwUDA/chemistry/ch1s1chem.htm" >Chem Ch 1</a></div>
+  <div id="item"><a href="https://googledrive.com/host/0B5AgVKBJIMRlbFFEN1RoZ2YwUDA/chemistry/ch1s1chem.htm" >Chem Ch 1 w/o extra</a></div>
+  <div id="item"><a href="chemistry/ch1s1chem.htm" data-mce-href="https://shiftedit.net/chemistry/ch1s1chem.htm">Chem Relative</a></div>
+  <div id="item"><a href="http://www.espn.com" >NHL</a></div>
+  </div>
+  <div id="content"><p>this is from me!!!!!!!! dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+  <p><span style="color: rgb(255, 0, 0);">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+  </p></div>
+  <div id="footer">An Example Footer<br><a href="http://www.espn.com" >NHL</a><br> <input name="btnClick" onclick="openIt()" type="button" value="Click me!" /></div>
+  </div>
+  <button type="button" onclick="displayDate()">Display Date</button>
+  <p id="demo">This is a paragraph.</p>
+  </body>
+</html>
+
+
