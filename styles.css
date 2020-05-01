@@ -1,0 +1,35 @@
+h1
+{
+background-color:green;
+text-align:center;
+}
+p
+{
+background-color:#18bafa;
+}
+#para1
+{
+text-align:center;
+color:red;
+}
+.center
+{
+text-align:right;
+color:blue;
+}
+div
+{
+background-color:blue;
+}
+body {background-image:url('http://demo.tutorialzine.com/2010/07/making-slick-mobileapp-website-jquery-css/img/bokeh.jpg');}
+.gradient{
+    background: #efc5ca; /* Old browsers */
+background: -moz-linear-gradient(-45deg,  #efc5ca 10%, #d24b5a 28%, #ba2737 60%, #f18e99 83%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right bottom, color-stop(10%,#efc5ca), color-stop(28%,#d24b5a), color-stop(60%,#ba2737), color-stop(83%,#f18e99)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(-45deg,  #efc5ca 10%,#d24b5a 28%,#ba2737 60%,#f18e99 83%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(-45deg,  #efc5ca 10%,#d24b5a 28%,#ba2737 60%,#f18e99 83%); /* Opera 11.10+ */
+background: -ms-linear-gradient(-45deg,  #efc5ca 10%,#d24b5a 28%,#ba2737 60%,#f18e99 83%); /* IE10+ */
+background: linear-gradient(135deg,  #efc5ca 10%,#d24b5a 28%,#ba2737 60%,#f18e99 83%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#efc5ca', endColorstr='#f18e99',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+}
